@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Tests\Service\Test;
+namespace App\Tests\Service;
 
 use App\Service\MemcachedStorage;
 use PHPUnit\Framework\TestCase;
