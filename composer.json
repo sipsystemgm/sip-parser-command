@@ -47,12 +47,12 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "Sip\\ParserCommand\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "App\\Tests\\": "tests/"
+            "Sip\\ParserCommand\\Tests\\": "tests/"
         }
     },
     "replace": {

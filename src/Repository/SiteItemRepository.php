@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Repository;
+namespace Sip\ParserCommand\Repository;
 
-use App\Entity\Site;
-use App\Entity\SiteItem;
+use Sip\ParserCommand\Entity\Site;
+use Sip\ParserCommand\Entity\SiteItem;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\ORM\QueryBuilder;
 use Doctrine\Persistence\ManagerRegistry;

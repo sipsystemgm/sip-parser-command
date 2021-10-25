@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Entity;
+namespace Sip\ParserCommand\Entity;
 
-use App\Repository\SiteItemRepository;
+use Sip\ParserCommand\Repository\SiteItemRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;

@@ -1,11 +1,10 @@
 <?php
 
-namespace App\Command;
+namespace Sip\ParserCommand\Command;
 
-use App\Message\ParserQueueMessage;
-use App\Service\FileStorage;
-use App\Service\MemcachedStorage;
-use App\Service\ReaderRedisStorage;
+use Sip\ParserCommand\Message\ParserQueueMessage;
+use Sip\ParserCommand\Service\MemcachedStorage;
+use Sip\ParserCommand\Service\ReaderRedisStorage;
 use Predis\Client;
 use Sip\ReaderManager\Interfaces\ReaderStorageInterface;
 use Symfony\Component\Console\Command\Command;

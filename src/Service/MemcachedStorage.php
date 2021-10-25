@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Service;
+namespace Sip\ParserCommand\Service;
 
 use Sip\ReaderManager\AbstractStorage;
 use Sip\ReaderManager\Interfaces\ReadCacheInterface;

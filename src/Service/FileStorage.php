@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Service;
+namespace Sip\ParserCommand\Service;
 
 use Sip\ReaderManager\FileStorage as SipFileStorage;
 

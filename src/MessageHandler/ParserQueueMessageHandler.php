@@ -1,12 +1,11 @@
 <?php
 
-namespace App\MessageHandler;
+namespace Sip\ParserCommand\MessageHandler;
 
-use App\Command\ParserCommand;
-use App\Message\ParserQueueMessage;
-use App\Service\Interfaces\SaveDataInterface;
-use App\Service\ReaderRedisStorage;
-use App\Service\SaveData;
+use Sip\ParserCommand\Command\ParserCommand;
+use Sip\ParserCommand\Message\ParserQueueMessage;
+use Sip\ParserCommand\Service\Interfaces\SaveDataInterface;
+use Sip\ParserCommand\Service\ReaderRedisStorage;
 use Sip\ImageParser\Interfaces\ImageParserInterface;
 use Sip\ReaderManager\Interfaces\ReaderManagerInterface;
 use Sip\ReaderManager\ReaderManager;

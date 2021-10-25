@@ -1,9 +1,8 @@
 <?php
 
-namespace App\Tests\Service;
+namespace Sip\ParserCommand\Tests\Service;
 
-use App\Service\MemcachedStorage;
-use PHPUnit\Framework\TestCase;
+use Sip\ParserCommand\Service\MemcachedStorage;
 use Sip\ReaderManager\Interfaces\ReaderStorageInterface;
 use Sip\ReaderManager\Test\AbstractStorageTest;
 

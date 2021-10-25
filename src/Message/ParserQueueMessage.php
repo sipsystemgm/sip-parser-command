@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Message;
+namespace Sip\ParserCommand\Message;
 
 final class ParserQueueMessage
 {

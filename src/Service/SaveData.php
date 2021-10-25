@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Service;
+namespace Sip\ParserCommand\Service;
 
-use App\Repository\SiteItemRepository;
-use App\Repository\SiteRepository;
-use App\Service\Interfaces\SaveDataInterface;
+use Sip\ParserCommand\Repository\SiteItemRepository;
+use Sip\ParserCommand\Repository\SiteRepository;
+use Sip\ParserCommand\Service\Interfaces\SaveDataInterface;
 use Doctrine\ORM\EntityManagerInterface;
 
 class SaveData implements SaveDataInterface

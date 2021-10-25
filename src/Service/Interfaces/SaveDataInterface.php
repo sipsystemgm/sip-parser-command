@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Service\Interfaces;
+namespace Sip\ParserCommand\Service\Interfaces;
 
 interface SaveDataInterface
 {

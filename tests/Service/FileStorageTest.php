@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Tests\Service;
+namespace Sip\ParserCommand\Tests\Service;
 
 
-use App\Service\FileStorage;
+use Sip\ParserCommand\Service\FileStorage;
 use Sip\ReaderManager\Interfaces\ReaderStorageInterface;
 
 class FileStorageTest extends \Sip\ReaderManager\Test\FileStorageTest
