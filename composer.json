@@ -9,7 +9,7 @@
         }
     ],
 
-    "type": "project",
+    "type": "library",
     "license": "proprietary",
     "minimum-stability": "stable",
     "prefer-stable": true,
